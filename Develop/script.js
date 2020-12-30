@@ -29,12 +29,9 @@ $(document).ready(function () {
     function hourlyTask() {
         //Get current time
         var currentTime = moment().hour();
-        console.log(currentTime)
-
 
         $(".time-block").each(function () {
             var taskTime = parseInt($(this).attr("id"));
-            console.log(taskTime)
 
             //Determine time and change classes
            
