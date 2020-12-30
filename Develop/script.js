@@ -36,7 +36,23 @@ $(document).ready(function () {
             var taskTime = parseInt($(this).attr("id"));
             console.log(taskTime)
 
-            
+            //Determine time and change classes
+           
+            if (taskTime === currentTime) {
+                $(this).removeClass("past");
+                $(this).removeClass("future");
+                $(this).addClass("present");
+            }
+            else if (taskTime< currentTime) {
+                $(this).removeClass("future");
+                $(this).removeClass("present");
+                $(this).addClass("past");
+            }
+            else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
+            }
         })
     }
 
