@@ -26,4 +26,19 @@ $(document).ready(function () {
     $("#17 .description").val(localStorage.getItem("17"));
 
    
+    function hourlyTask() {
+        //Get current time
+        var currentTime = moment().hour();
+        console.log(currentTime)
+
+
+        $(".time-block").each(function () {
+            var taskTime = parseInt($(this).attr("id"));
+            console.log(taskTime)
+
+            
+        })
+    }
+
+    hourlyTask();
 })
