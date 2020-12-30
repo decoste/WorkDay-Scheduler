@@ -12,7 +12,7 @@ This is a simple calendar application that allows a user to save events for each
 
 The following GIF demonstrates the application functionality:
 
-![workDay scheduler](./assets/images/task.gif)
+![workDay scheduler](./Assets/images/task.gif)
 
 ## Installation
 
@@ -39,5 +39,5 @@ Please feel free to send me an email if you have any question(s) aladecoste@gmai
 
 Screenshot of the website:
 
-![emp](./assets/images/Capture.PNG)
+![emp](./Assets/images/Capture.PNG)
 
